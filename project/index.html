@@ -13,28 +13,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Import of CSS -->
+    <!-- Import of Global CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Import of Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- Import of CSS for index -->
+    <link rel="stylesheet" href="css/index.css">
     <!-- Added favicon -->
     <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
     <!-- Import of javascript  -->
     <script src="js/script.js" defer></script>
-    
+
 
 </head>
 
 <body>
+
     <header>
         <img id="logo" src="./img/icon.svg" alt="Logotype">
         <nav>
             <img id="burgerButton" src="./img/burgericon.svg" alt="Burger icon">
-            <ul id="navItems">
-                <li><a href="">Home</a></li>
-                <li><a href="">Fleet</a></li>
-                <li><a href="">Booking & Pricing</a></li>
+            <ul id="linkContainer">
+                <li><a href="" class="navLink">Home</a></li>
+                <li><a href="" class="navLink">Fleet</a></li>
+                <li><a href="" class="navLink">Booking &#38; Pricing</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <div id="landing">
+            <video id="backgroundVideo" loop muted playsinline autoplay>
+                <source src="background-video/1080.mp4" type="video/mp4" media="(min-width: 720px)">
+                <source src="background-video/720.mp4" type="video/mp4" media="(min-width: 480px)">
+                <source src="background-video/480.mp4" type="video/mp4" media="(min-width: 0px)">
+            </video>
+            <div id="message">
+                <h1>Dunder Mifflin Aviation</h1>
+                <button>Read more...</button>
+            </div>
+        </div>
+    </main>
+
 </body>
 
 </html>
