@@ -2,10 +2,9 @@
 
 Projektet tillhörande `Laboration 2: Grupprojektet`.
 
+# Projektplan
+Se [`PLANING.md`](PLANING.md)
 
-
-# License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-
+## Licens
+Distribueras under MIT-licensen. Se [`LICENSE`](LICENSE) för mer information. 
 
