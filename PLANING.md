@@ -3,6 +3,7 @@
 Grupp 5 - Linus Romland, Svante Jonsson & Markus Simonsen
 
 ## Kund: Privat flygbolag
+## Företagsnamn: DM Aviation (Dunder Mifflin Aviation)
 
 Flygbolag med bas på Göteborg Säve Airport. Endast privatflygningar. Bokning via telefon efter behov. 
 
