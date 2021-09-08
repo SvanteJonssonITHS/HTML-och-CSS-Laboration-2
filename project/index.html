@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta infomation -->
-        <title>DM Aviation</title>
-        <meta name="description"
-            content="Dunder Mifflin Aviation offers private flights based in Gothenburg Säve Airport (GSE)">
-        <meta name="author" content="Linus Romland, Svante Jonsson &#38; Markus Simonsen">
-        <meta name="keywords"
-            content="Aviation,Airline,Flying,GSE,Gothenburg,Dunder Mifflin,Gothenburg Säve Airport,Säve,Göteborg">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Import of Global CSS -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- Import of Navbar CSS -->
-        <link rel="stylesheet" href="css/navbar.css">
-        <!-- Import of CSS for index -->
-        <link rel="stylesheet" href="css/index.css">
-        <!-- Added favicon -->
-        <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
-        <!-- Import of javascript  -->
-        <script src="js/script.js" defer></script>
-    </head>
-    <body>
-        <header>
-            <img id="logo" src="./img/icon.svg" alt="Logotype">
-            <nav>
-                <img id="burgerButton" src="./img/burgericon.svg" alt="Burger icon">
-                <ul id="linkContainer">
-                    <li><a href="" class="navLink">Home</a></li>
-                    <li><a href="" class="navLink">Fleet</a></li>
-                    <li><a href="" class="navLink">Booking &#38; Pricing</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div id="landing">
-                <video id="backgroundVideo" loop muted playsinline autoplay>
-                    <source src="background-video/1080.mp4" type="video/mp4" media="(min-width: 720px)">
-                    <source src="background-video/720.mp4" type="video/mp4" media="(min-width: 480px)">
-                    <source src="background-video/480.mp4" type="video/mp4" media="(min-width: 0px)">
-                </video>
-                <div id="message">
-                    <h1>Dunder Mifflin Aviation</h1>
-                    <a href="#about">Read more...</a>
-                </div>
+<head>
+    <!-- Meta infomation -->
+    <title>Home - DM Aviation</title>
+    <meta name="description"
+        content="Dunder Mifflin Aviation offers private flights based in Gothenburg Säve Airport (GSE)">
+    <meta name="author" content="Linus Romland, Svante Jonsson &#38; Markus Simonsen">
+    <meta name="keywords"
+        content="Aviation,Airline,Flying,GSE,Gothenburg,Dunder Mifflin,Gothenburg Säve Airport,Säve,Göteborg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import of Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Import of Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- Import of CSS for index -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Added favicon -->
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <!-- Import of javascript  -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./img/icon.svg" alt="Logotype">
+        <nav>
+            <img id="burgerButton" src="./img/burgericon.svg" alt="Burger icon">
+            <ul id="linkContainer">
+                <li><a href="index.html" class="navLink">Home</a></li>
+                <li><a href="fleet.html" class="navLink">Fleet</a></li>
+                <li><a href="" class="navLink">Booking &#38; Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="landing">
+            <video id="backgroundVideo" loop muted playsinline autoplay poster="img/background.jpg">
+                <source src="background-video/1080.mp4" type="video/mp4" media="(min-width: 720px)">
+                <source src="background-video/720.mp4" type="video/mp4" media="(min-width: 480px)">
+                <source src="background-video/480.mp4" type="video/mp4" media="(min-width: 0px)">
+            </video>
+            <div id="message">
+                <h1>Dunder Mifflin Aviation</h1>
+                <a href="#about">Read more...</a>
             </div>
-            <div id="about">
-                <article>
-                    <h2>About Us</h2>
-                    <section>
-                        <h3>About the company</h3>
+        </div>
+        <div id="about">
+            <article id="mainText">
+                <h2>About Us</h2>
+                <section>
+                    <h3>About the company</h3>
+                    <p>
+                        Dunder Mifflin Aviation started after the great success of the Michael Scott Paper Company. When
+                        Dunder Mifflin purchased the company in 2009 they started to grow fast. With this great success
+                        they saw options to move to other markets. Michael always dreamt to be a pilot, therefore Dunder
+                        Mifflin Aviation started. In 2010 they purchased their first Aircraft, a Cessna Caravan, and for
+                        the first flight they took off on the 17th of March 2010 at 14:46PM from Wilkes-Barre Scranton
+                        International Airport (AVP) in Pennsylvania headed for Gothenburg Säve Airport (GSE) in Sweden,
+                        with several stops along the way. After they arrived they fell in love with Gothenburg &#38;
+                        Säve Airport so they decided to base their entire fleet at Gothenburg Säve Airport.
+                    </p>
+                </section>
+            </article>
+            <aside id="quote">
+                <img src="img/pilot.jpg" alt="Pilot Headshot" />
+                <figure>
+                    <blockquote>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iusto obcaecati asperiores
-                            laboriosam perferendis neque recusandae sapiente consequatur, quos dolor nulla corporis alias
-                            harum vitae rerum repellendus saepe. Temporibus, iure.
+                            "And I knew exactly what to do. But in a much more real sense, I had no idea what to do."
                         </p>
-                    </section>
-                </article>
-                <aside>
-                    <figure>
-                        <blockquote>
-                            <h3>Pilot</h3>
-                            <p>
-                                And I knew exactly what to do. But in a much more real sense, I had no idea what to do.
-                            </p>
-                        </blockquote>
-                        <figcaption>—Michael Scott,</figcaption>
-                    </figure>
-                </aside>
-            </div>
-        </main>
-    </body>
+                    </blockquote>
+                    <figcaption>— Michael Scott (CEO/PIC)</figcaption>
+                </figure>
+            </aside>
+        </div>
+    </main>
+</body>
+
 </html>
