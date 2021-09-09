@@ -69,6 +69,10 @@ textarea {
     border: none;
 }
 
+#info {
+    margin-bottom: 2em;
+}
+
 @media screen and (min-width: 700px) {
     body {
         background-image: url(../img/clouds/720.jpg);
@@ -85,11 +89,16 @@ textarea {
 
     #info {
         width: 40%;
+        margin-bottom: 0;
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
     body {
         background-image: url(../img/clouds/1080.jpg);
+    }
+
+    #info {
+        margin-bottom: 0;
     }
 }
