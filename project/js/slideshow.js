@@ -1,5 +1,6 @@
 let slideshows = document.getElementsByClassName("slideshow")
 
+//Adds interval for all slideshows
 for (let i = 0; i < slideshows.length; i++) {
     let slideshow = slideshows[i]
     setInterval(function () {
@@ -7,6 +8,7 @@ for (let i = 0; i < slideshows.length; i++) {
     }, 3000 + Math.floor(Math.random() * 1000));
 }
 
+// Shows the correct slides and updates the class active
 function showSlides(slideshow) {
     let slides = slideshow.querySelectorAll(".slide")
     let id;

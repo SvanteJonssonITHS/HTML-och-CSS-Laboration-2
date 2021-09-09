@@ -1,3 +1,4 @@
+// Changes the visabilty of the burger menu on phone
 document.getElementById("burgerButton").onclick = () => {
     let navItems = document.getElementById("linkContainer")
 
