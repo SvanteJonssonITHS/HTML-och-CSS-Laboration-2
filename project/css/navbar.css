@@ -57,22 +57,24 @@ nav {
     transition: background-color 0.2s;
 }
 
-.navlinkActive{
+.navlinkActive {
     font-weight: 500;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .navLink:hover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (min-width: 700px) {
     nav {
         width: auto;
     }
+
     #burgerButton {
         display: none;
     }
+
     #linkContainer {
         visibility: visible !important;
         flex-direction: row;
@@ -91,9 +93,11 @@ nav {
         top: -80px;
         opacity: 0;
     }
+
     25% {
         opacity: 0;
     }
+
     100% {
         top: 0;
         opacity: 1;

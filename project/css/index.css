@@ -60,37 +60,44 @@
     font-weight: 300;
 
 }
+
 #about section {
     margin: 1em 0;
 }
+
 #quote {
     display: flex;
     flex-direction: column;
 }
+
 #quote img {
     width: 100%;
 }
 
 @media screen and (min-width: 700px) {
-    #quote{
+    #quote {
         align-items: flex-end;
         flex-direction: row;
     }
+
     #quote figure {
         margin: 0 1em;
     }
 }
+
 @media screen and (min-width: 1000px) {
-    #quote{
+    #quote {
         align-items: flex-start;
         flex-direction: column;
     }
+
     #about {
         display: flex;
         flex-direction: row;
         width: 60%;
         padding-top: 20vh;
     }
+
     article {
         padding-right: 2em;
     }
@@ -100,6 +107,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }

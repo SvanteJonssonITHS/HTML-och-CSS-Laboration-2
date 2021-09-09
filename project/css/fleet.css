@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(../img/saveairport/480.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@ main {
     align-items: center;
 }
 
-.card:last-child{
+.card:last-child {
     margin-bottom: 2em;
 }
 
@@ -62,13 +62,13 @@ dt {
 }
 
 @media screen and (min-width: 700px) {
-    body{
+    body {
         background-image: url(../img/saveairport/720.jpg);
     }
 }
 
 @media screen and (min-width: 1000px) {
-    body{
+    body {
         background-image: url(../img/saveairport/1080.jpg);
     }
 
@@ -81,10 +81,10 @@ dt {
         margin: 1em;
         padding: 1em 0;
         float: left;
-        clear:both;    
+        clear: both;
     }
 
-    .card:not(:first-child){
+    .card:not(:first-child) {
         margin-top: -200px;
     }
 

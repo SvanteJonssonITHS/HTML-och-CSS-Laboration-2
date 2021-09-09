@@ -1,9 +1,10 @@
-body{
+body {
     background-image: url(../img/clouds/480.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
 main {
     min-height: calc(100vh - 80px);
     display: flex;
@@ -15,7 +16,7 @@ main {
     width: 90%;
     min-height: 600px;
     padding: 25px;
-    background-color: rgba(255,255,255);
+    background-color: rgba(255, 255, 255);
     margin-top: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.420);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -69,23 +70,26 @@ textarea {
 }
 
 @media screen and (min-width: 700px) {
-    body{
+    body {
         background-image: url(../img/clouds/720.jpg);
     }
+
     main {
         flex-direction: row;
         justify-content: space-around;
     }
+
     #contact {
         width: 40%;
     }
+
     #info {
         width: 40%;
     }
 }
 
 @media screen and (min-width: 700px) {
-    body{
+    body {
         background-image: url(../img/clouds/1080.jpg);
     }
 }
