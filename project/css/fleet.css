@@ -1,15 +1,29 @@
+body{
+    background-image: url(../img/saveairport/480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main {
     display: flex;
+    flex-direction: column;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.420);
+    background-color: #fff;
     transition: 0.3s;
     width: 95%;
     margin: auto;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card:last-child{
+    margin-bottom: 2em;
 }
 
 .slide {
@@ -18,7 +32,7 @@ main {
     display: none;
 }
 
-.active{
+.active {
     display: block;
 }
 
@@ -29,7 +43,8 @@ main {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    transform: scale(1.01, 1.01);
 }
 
 .card_info {
@@ -46,9 +61,35 @@ dt {
     margin-top: 0.2em
 }
 
+@media screen and (min-width: 700px) {
+    body{
+        background-image: url(../img/saveairport/720.jpg);
+    }
+}
+
 @media screen and (min-width: 1000px) {
+    body{
+        background-image: url(../img/saveairport/1080.jpg);
+    }
+
+    main {
+        display: block;
+    }
+
     .card {
-        width: 50%;
+        width: 47%;
+        margin: 1em;
+        padding: 1em 0;
+        float: left;
+        clear:both;    
+    }
+
+    .card:not(:first-child){
+        margin-top: -200px;
+    }
+
+    .card:nth-of-type(2n) {
+        float: right;
     }
 
     .slide {
@@ -56,7 +97,7 @@ dt {
         width: 90%;
     }
 
-    .card img {
+    .card picture {
         width: 100%;
     }
 
