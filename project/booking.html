@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta infomation -->
+    <title>Booking &#38; Pricing - DM Aviation</title>
+    <meta name="description"
+        content="Dunder Mifflin Aviation offers private flights based in Gothenburg Säve Airport (GSE)">
+    <meta name="author" content="Linus Romland, Svante Jonsson &#38; Markus Simonsen">
+    <meta name="keywords"
+        content="Aviation,Airline,Flying,GSE,Gothenburg,Dunder Mifflin,Gothenburg Säve Airport,Säve,Göteborg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import of Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Import of Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- Import of CSS for fleet -->
+    <link rel="stylesheet" href="css/booking.css">
+    <!-- Added favicon -->
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <!-- Import of javascript  -->
+    <script src="js/navbar.js" defer></script>
+    <!-- Import of Slideshow javascript  -->
+    <script src="js/slideshow.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./img/icon.svg" alt="Logotype">
+        <nav>
+            <img id="burgerButton" src="./img/burgericon.svg" alt="Burger icon">
+            <ul id="linkContainer">
+                <li><a href="index.html" class="navLink">Home</a></li>
+                <li><a href="fleet.html" class="navLink">Fleet</a></li>
+                <li><a href="booking.html" class="navLink">Booking &#38; Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contact">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" class="input" name="fname" placeholder="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" class="input" name="lname" placeholder="Doe"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" class="input" name="email" placeholder="Email"><br>
+            <label for="company">Company (Optional):</label><br>
+            <input type="text" id="company" class="input" name="company" placeholder="Company"><br>
+            <label for="message">Leave a message:</label><br>
+            <textarea id="message" name="message" class="input" placeholder="Tell us about where you'd like to fly with us!"></textarea>
+            <input id="submit" type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
