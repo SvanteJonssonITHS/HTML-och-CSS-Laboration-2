@@ -34,12 +34,13 @@
             <ul id="linkContainer">
                 <li><a href="index.html" class="navLink">Home</a></li>
                 <li><a href="fleet.html" class="navLink">Fleet</a></li>
-                <li><a href="booking.html" class="navLink">Booking &#38; Pricing</a></li>
+                <li><a href="booking.html" class="navLink navlinkActive">Booking &#38; Pricing</a></li>
             </ul>
         </nav>
     </header>
-    <div id="contact">
-        <form>
+    <main>
+        <form id="contact" class="card">
+            <h2>Tottiballoti</h2>
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" class="input" name="fname" placeholder="John"><br>
             <label for="lname">Last name:</label><br>
@@ -52,6 +53,23 @@
             <textarea id="message" name="message" class="input" placeholder="Tell us about where you'd like to fly with us!"></textarea>
             <input id="submit" type="submit" value="Send">
         </form>
-    </div>
+        <div id="info" class="card">
+            <h2>Find us here!</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8758.920153979909!2d11.855572470761944!3d57.77771050703044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464f8a4e1a2e0dbd%3A0x105ebbcdfbb1199b!2sS%C3%A4ve%20Flygplats!5e0!3m2!1ssv!2sse!4v1631188602898!5m2!1ssv!2sse"></iframe>
+            <article>
+                <h3>Contact Info</h3>
+                <dl>
+                    <dt>Adress</dt>
+                    <dd><a href="https://www.google.com/maps/place/S%C3%A4ve+Flygplats/@57.776411,11.8647508,15z/data=!4m2!3m1!1s0x0:0x105ebbcdfbb1199b?sa=X&ved=2ahUKEwjlqsya7fHyAhWww4sKHWuICywQ_BJ6BAhxEAU">Säve Flygplatsväg 28, 423 73 Säve</a></dd>
+    
+                    <dt>Phone</dt>
+                    <dd><a href="tel:+46317440909">031-744 09 09</a></dd>
+
+                    <dt>Email</dt>
+                    <dd><a href="mailto:dundermifflin@saveairport.com">dundermifflin@saveairport.com</a></dd>
+                </dl>
+            </article>
+        </div>
+    </main>  
 </body>
 </html>
