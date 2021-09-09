@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta infomation -->
-        <title>Fleet - DM Aviation</title>
-        <meta name="description"
-            content="Dunder Mifflin Aviation offers private flights based in Gothenburg Säve Airport (GSE)">
-        <meta name="author" content="Linus Romland, Svante Jonsson &#38; Markus Simonsen">
-        <meta name="keywords"
-            content="Aviation,Airline,Flying,GSE,Gothenburg,Dunder Mifflin,Gothenburg Säve Airport,Säve,Göteborg">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Import of Global CSS -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- Import of Navbar CSS -->
-        <link rel="stylesheet" href="css/navbar.css">
-        <!-- Import of CSS for fleet -->
-        <link rel="stylesheet" href="css/fleet.css">
-        <!-- Added favicon -->
-        <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
-        <!-- Import of javascript  -->
-        <!-- <script src="js/script.js" defer></script> -->
-        <!-- Import of Slideshow javascript  -->
-        <script src="js/slideshow.js" defer></script>
-    </head>
-    <body>
-        <article>
+<head>
+    <!-- Meta infomation -->
+    <title>Fleet - DM Aviation</title>
+    <meta name="description"
+        content="Dunder Mifflin Aviation offers private flights based in Gothenburg Säve Airport (GSE)">
+    <meta name="author" content="Linus Romland, Svante Jonsson &#38; Markus Simonsen">
+    <meta name="keywords"
+        content="Aviation,Airline,Flying,GSE,Gothenburg,Dunder Mifflin,Gothenburg Säve Airport,Säve,Göteborg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import of Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Import of Navbar CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- Import of CSS for fleet -->
+    <link rel="stylesheet" href="css/fleet.css">
+    <!-- Added favicon -->
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <!-- Import of javascript  -->
+    <script src="js/navbar.js" defer></script>
+    <!-- Import of Slideshow javascript  -->
+    <script src="js/slideshow.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./img/icon.svg" alt="Logotype">
+        <nav>
+            <img id="burgerButton" src="./img/burgericon.svg" alt="Burger icon">
+            <ul id="linkContainer">
+                <li><a href="index.html" class="navLink">Home</a></li>
+                <li><a href="fleet.html" class="navLink">Fleet</a></li>
+                <li><a href="booking.html" class="navLink">Booking &#38; Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Cessna Citation Card -->
+        <article class="card">
             <h2>Cessna Citation</h2>
             <div class="slideshow">
-                <div class="slide">
+                <div class="slide active">
                     <img src="img/planes/citation/interior.jpg" alt="Cessna Citation Interior">
                 </div>
                 <div class="slide">
@@ -38,22 +53,33 @@
                 <div class="slide">
                     <img src="img/planes/citation/cockpit.jpg" alt="Cessna Citation Cockpit">
                 </div>
-                <p class="caption" id="0"></p>
             </div>
-            <p>If you’re ready for your next achievement, meet our next-generation jet. Expertly designed, exquisitely crafted, the reimagined CESSNA CITATION CJ4 Gen2 jet elevates your travel experience from the moment you step on board. The amenities you’ll discover range from eye-catching to productivity-enhancing with COOLVIEW skylights, upgraded seating and a wireless cabin management system giving you instant control of lighting, window shades and cabin temperature. <cite><a href="https://cessna.txtav.com/en/citation/cj4-gen2">Source</a></cite></p>
-            <article>
-                <h3>Infomation:</h3>
-                <dl>
-                    <dt>Seats</dt>
-                    <dd>10</dd>
+            <section class="card_info">
+                <p>If you’re ready for your next achievement, meet our next-generation jet. Expertly designed,
+                    exquisitely
+                    crafted, the reimagined CESSNA CITATION CJ4 Gen2 jet elevates your travel experience from the moment
+                    you<
+                    step on board. The amenities you’ll discover range from eye-catching to productivity-enhancing with
+                    COOLVIEW skylights, upgraded seating and a wireless cabin management system giving you instant
+                    control
+                    of lighting, window shades and cabin temperature. <cite><a
+                            href="https://cessna.txtav.com/en/citation/cj4-gen2">Source</a></cite></p>
+                <article class="card_technical_info">
+                    <h3>Infomation:</h3>
+                    <dl>
+                        <dt>Seats</dt>
+                        <dd>10</dd>
 
-                    <dt>Range</dt>
-                    <dd>2,165 nm (4,010 km)</dd>
+                        <dt>Range</dt>
+                        <dd>2,165 nm (4,010 km)</dd>
 
-                    <dt>Cruise Speed</dt>
-                    <dd>451 ktas (835 km/h)</dd>
-                </dl>
-            </article>
+                        <dt>Cruise Speed</dt>
+                        <dd>451 ktas (835 km/h)</dd>
+                    </dl>
+                </article>
+            </section>
         </article>
-    </body>
+    </main>
+</body>
+
 </html>

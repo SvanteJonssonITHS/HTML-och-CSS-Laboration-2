@@ -12,7 +12,7 @@ Seats: 10
 Range: 2,165 nmi (4,010 km)
 Cruise Speed: 451 ktas (835 km/h)
 
-## Cirrus Vision sf50
+## Cirrus Vision SF50
 
 ### Infotext
 Cirrus’s Vision Jet is the only civilian certified single-engine jet in production. Cirrus designed it to be a simple step up from its SR series. Every switch, knob, and lever is in virtually the same place on the jet as on the piston airplanes. Designed as a “personal jet,” it is certified to only 28,000 feet; twin-engine business jets normally are certified to at least 40,000 feet. The SF50 also is unique in that it carries a whole-airplane parachute, a Cirrus signature feature.
