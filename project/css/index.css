@@ -17,6 +17,10 @@
     font-size: 2em;
 }
 
+#message h1 {
+    padding: 20px;
+}
+
 #message a {
     display: block;
     background-color: rgba(0, 0, 0, 0.4);
