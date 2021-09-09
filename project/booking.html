@@ -24,6 +24,7 @@
     <!-- Import of javascript  -->
     <script src="js/navbar.js" defer></script>
     <script src="js/scroll.js" defer></script>
+    <script src="js/submitForm.js"></script>
 </head>
 
 <body>
@@ -40,7 +41,7 @@
         </nav>
     </header>
     <main>
-        <form id="contact" class="card">
+        <form id="contact" class="card" onSubmit="sendData();return false;">
             <h2>Contact us!</h2>
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" class="input" name="fname" placeholder="John" required><br>
