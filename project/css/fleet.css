@@ -1,0 +1,8 @@
+.slide {
+    margin: auto 1em;
+    animation: fade 1.5s;
+    display: none;
+}
+.active{
+    display: block;
+}
