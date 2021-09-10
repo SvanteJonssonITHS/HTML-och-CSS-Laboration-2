@@ -21,6 +21,9 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.420);
     transition: transform 0.3s, box-shadow 0.3s;
 }
+.card > h2 {
+    margin-bottom: 0.5em;
+}
 
 #contact:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
@@ -68,6 +71,9 @@ textarea {
     height: 300px;
     border: none;
 }
+#info article {
+    margin: 0.5em 0;
+}
 
 #info {
     margin-bottom: 2em;
@@ -82,14 +88,8 @@ textarea {
         flex-direction: row;
         justify-content: space-around;
     }
-
-    #contact {
+    .card {
         width: 40%;
-    }
-
-    #info {
-        width: 40%;
-        margin-bottom: 0;
     }
 }
 

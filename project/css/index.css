@@ -58,11 +58,13 @@
     margin: auto;
     padding: 1em;
     font-weight: 300;
-
 }
 
-#about section {
+#aboutText {
     margin: 1em 0;
+}
+#aboutText > h3 {
+    margin-bottom: 0.5em;
 }
 
 #quote {
@@ -90,11 +92,14 @@
         align-items: flex-start;
         flex-direction: column;
     }
+    #quote figure {
+        margin: 0;
+    }
 
     #about {
         display: flex;
         flex-direction: row;
-        width: 60%;
+        width: 70%;
         padding-top: 20vh;
     }
 
