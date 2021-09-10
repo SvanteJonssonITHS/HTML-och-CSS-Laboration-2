@@ -33,6 +33,8 @@ main {
     margin: auto 1em;
     animation: fade 1.5s;
     display: none;
+    position: relative;
+    z-index: 0;
 }
 
 .active {
