@@ -20,6 +20,7 @@
 
 #message h1 {
     padding: 20px;
+    text-shadow: 5px 5px 10px #000;
 }
 
 #message a {
